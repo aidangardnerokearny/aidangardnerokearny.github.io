@@ -7,6 +7,6 @@ Hi, I'm Aidan Gardner-O'Kearny, an incoming physics PhD student at the Universit
 Email: `aidan.gardnerokearny@cern.ch`
 
 ## Profiles
-- [Linkedin](htps://www.linkedin.com/in/aidangardnerokearny/)
+- [Linkedin](htps://www.linkedin.com/in/aidangardnerokearny)
 - [Gitlab](https://gitlab.cern.ch/agardner)
 - [Github](https://github.com/aidangardnerokearny)
