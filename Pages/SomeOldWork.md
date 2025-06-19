@@ -18,6 +18,10 @@ I try to keep a complete repository of previous work I've done, even if it's no 
     - April 2025
     - A single slide I made for the UO Clark Honors College's three minute thesis competition
 
+- [Ionization Behavior Studies for dE/dx and Disappearing Track Signature Search](/Documents/AGO_APS_Presentation.pdf)
+    - March 2025
+    - A presentation I gave at the APS Global Summit
+
 
 ## Written Work
 - [Combinatorial fake discriminatory selections for combined dE/dx and disappearing track search with the ATLAS detector](/Documents/AGO_HC_Thesis.pdf)
