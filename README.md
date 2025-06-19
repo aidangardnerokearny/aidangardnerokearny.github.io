@@ -19,7 +19,7 @@ Email: `aidan.gardnerokearny@cern.ch`
 - [Github](https://github.com/aidangardnerokearny)
 
 ## [Some Old Work](Pages/SomeOldWork.md)
-## [A Link To My CV]()
+## [A Link To My CV](Documents/AGOCV2025.pdf)
 ## [Writing]()
 
 
