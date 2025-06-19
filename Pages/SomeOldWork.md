@@ -9,7 +9,7 @@ I try to keep a complete repository of previous work I've done, even if it's no 
     - August 2024
     - I worked on this while I was a SULI intern at Brookhaven National Lab, and presented at their research fair
 - [Background Ionization Behavior For Combined dE/dx And Disappearing Track Analysis](/Documents/AidanGardnerOKearnySymposiumPosterPrintable.pdf)
-    - May 2025
+    - May 2024
     - My first stab at a poster. Very, very wordy. Made for the 2024 UO Undergraduate Research Symposium
 
 
