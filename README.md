@@ -9,7 +9,7 @@ Hey there! I'm Aidan Gardner-O'Kearny, an incoming physics PhD student at the Un
 
 I worked as a part of the ATLAS Collaboration while I was an undergraduate at the University of Oregon. During my time with ATLAS I worked on both a long-lived particle search and a search for BSM scalars.
 
-This was mainly an excuse to have a place to store my CV, but the barrier to adding additional content to this site is shockingly low, so I am going to use it for all sorts of things.
+This website was mainly an excuse to have a place to store my CV, but the barrier to adding additional content to it is shockingly low, so I am going to use this place for all sorts of things.
 
 Email: `aidan.gardnerokearny@cern.ch`
 
@@ -17,6 +17,7 @@ Email: `aidan.gardnerokearny@cern.ch`
 - [Linkedin](https://www.linkedin.com/in/aidangardnerokearny)
 - [Gitlab](https://gitlab.cern.ch/agardner)
 - [Github](https://github.com/aidangardnerokearny)
+- [Letterboxd](https://letterboxd.com/agardner/) (My backup plan if physics doesn't work out is to make it big as a Letterboxd influencer)
 
 ## [Some Old Work](Pages/SomeOldWork.md)
 ## [A Link To My CV]()
