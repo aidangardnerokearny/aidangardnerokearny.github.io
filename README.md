@@ -7,7 +7,7 @@
 
 Hey there! I'm Aidan Gardner-O'Kearny, an incoming physics PhD student at the University of Tennessee, Knoxville. I'm interested in high energy experiment, specifically searches for Beyond-the-Standard-Model physics utilizing exotic detector signatures. I'm also interested in the development of a 10 TeV Muon collider.
 
-I worked as a part of the ATLAS Collaboration while I was an undergraduate at the University of Oregon. During my time there I worked on both a long-lived particle search and a search for BSM scalars.
+I worked as a part of the ATLAS Collaboration while I was an undergraduate at the University of Oregon. During my time with ATLAS I worked on both a long-lived particle search and a search for BSM scalars.
 
 Email: `aidan.gardnerokearny@cern.ch`
 
@@ -17,3 +17,4 @@ Email: `aidan.gardnerokearny@cern.ch`
 - [Github](https://github.com/aidangardnerokearny)
 
 ## [Some Old Work](Pages/SomeOldWork.md)
+## [A Link To My CV]()
