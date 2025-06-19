@@ -21,7 +21,9 @@ I try to keep a complete repository of previous work I've done, even if it's no 
 
 ## Other Stuff
 - [Blackout](https://www.youtube.com/watch?v=ssIP8UMuIh0)
-
+    - I was on the editing team for this (as well as having a background role)
+    - Editing is hard, especially when you're working with limited footage, and I'm really proud of the final product we managed to pull out of what was available to us
+    - We won the audience's choice award at the 2022 film festival hosted by UFO
 
 
 {% include youtube.html id="ssIP8UMuIh0" %}
