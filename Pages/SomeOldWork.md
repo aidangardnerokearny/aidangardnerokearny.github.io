@@ -14,6 +14,9 @@ I try to keep a complete repository of previous work I've done, even if it's no 
 
 
 ## Presentations
+- [Three Minute Thesis](/Documents/AGOCHC3MinuteThesis.pdf)
+    - April 2025
+    - A single slide I made for the UO Clark Honors College's three minute thesis competition
 
 
 ## Written Work
