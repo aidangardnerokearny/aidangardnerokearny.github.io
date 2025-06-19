@@ -19,7 +19,7 @@ I try to keep a complete repository of previous work I've done, even if it's no 
 ## Written Work
 - [Combinatorial fake discriminatory selections for combined dE/dx and disappearing track search with the ATLAS detector](/Documents/AGO_HC_Thesis.pdf)
     - June 2025
-    - My undergraduate thesis for UO's Clark Honors College. A broad overview of everything I worked on as a part of the $dE/dx and disappearing track analysis with ATLAS
+    - My undergraduate thesis for UO's Clark Honors College. A broad overview of everything I worked on as a part of the $dE/dx$ and disappearing track analysis with ATLAS
 
 - [Comparing resolved and boosted jet identification algorithms to search for beyond the Standard Model scalar bosons with the ATLAS detector](/Documents/AGOSHbbyyReport.pdf)
     - August 2024
