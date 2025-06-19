@@ -1,6 +1,6 @@
 # Aidan Gardner-O'Kearny
 
-<img style="float: right; margin-left=20px;"
+<img style="float: left; margin-left=20px; margin-right=20px"
     width="300"
     alt="A (slightly) old picture of me at a live recording of Wait Wait Don't Tell Me in Chicago"
     src="Documents/AGOPicture.jpg">
