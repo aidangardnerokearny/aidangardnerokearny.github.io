@@ -23,7 +23,7 @@ I try to keep a complete repository of previous work I've done, even if it's no 
 
 - [Comparing resolved and boosted jet identification algorithms to search for beyond the Standard Model scalar bosons with the ATLAS detector](/Documents/AGOSHbbyyReport.pdf)
     - August 2024
-    - The report I wrote at the end of my time at Brookhaven National Lab, providing a broad overview of the work I did as a part of the $SH\rightarrow{}bb\gamma\gamma$ analysis with ATLAS
+    - The report I wrote at the end of my time at Brookhaven National Lab, providing a broad overview of the work I did as a part of the $SH\rightarrow{}\bar{b}b\gamma\gamma$ analysis with ATLAS
 
 ## Other Stuff
 - [Blackout](https://www.youtube.com/watch?v=ssIP8UMuIh0)

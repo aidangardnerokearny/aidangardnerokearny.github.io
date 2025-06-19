@@ -24,4 +24,3 @@ Email: `aidan.gardnerokearny@cern.ch`
 
 
 
-{% include youtube.html id="ssIP8UMuIh0" %}
