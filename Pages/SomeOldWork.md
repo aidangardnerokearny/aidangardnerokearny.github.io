@@ -7,13 +7,17 @@ I try to keep a complete repository of previous work I've done, even if it's no 
     - I made this for the 2025 UO Undergraduate Research Symposium, recieving 2nd place in the physics department poster competition
 - [Comparing resolved and boosted jet identification algorithms to search for beyond the Standard Model scalar bosons with the ATLAS detector](/Documents/AGOSHbbyyPoster.pdf)
     - August 2024
-    - I worked on this while I was a SULI intern at Brookhaven National Lab
+    - I worked on this while I was a SULI intern at Brookhaven National Lab, and presented at their research fair
 - [Background Ionization Behavior For Combined dE/dx And Disappearing Track Analysis](/Documents/AidanGardnerOKearnySymposiumPosterPrintable.pdf)
     - May 2025
     - My first stab at a poster. Very, very wordy. Made for the 2024 UO Undergraduate Research Symposium
 
 
 ## Presentations
+- [Combinatorial Fake Discriminatory Selections for dE/dx and Disappearing Track Signature Search](/Documents/AGO_URS_Presentation.pdf)
+    - May 2025
+    - A presentation I gave at UO's Undergraduate Research Symposium that looks shockingly similar to one I gave at APS a couple of months prior to this. I gave this as part of an attempt that our SPS chapter made to get more undergraduates to present at the research symposium. I figured if I was pushing other people to present I should probably present something myself, and so slightly modified an existing presentation to better fit the more general audience. Our push was only mildly successful
+
 - [Three Minute Thesis](/Documents/AGOCHC3MinuteThesis.pdf)
     - April 2025
     - A single slide I made for the UO Clark Honors College's three minute thesis competition
@@ -26,7 +30,7 @@ I try to keep a complete repository of previous work I've done, even if it's no 
 ## Written Work
 - [Combinatorial fake discriminatory selections for combined dE/dx and disappearing track search with the ATLAS detector](/Documents/AGO_HC_Thesis.pdf)
     - June 2025
-    - My undergraduate thesis for UO's Clark Honors College. A broad overview of everything I worked on as a part of the $dE/dx$ and disappearing track analysis with ATLAS
+    - My undergraduate thesis for UO's Clark Honors College. A broad overview of everything I worked on as a part of the $dE/dx$ and disappearing track analysis with ATLAS, highlighting the interesting results
 
 - [Comparing resolved and boosted jet identification algorithms to search for beyond the Standard Model scalar bosons with the ATLAS detector](/Documents/AGOSHbbyyReport.pdf)
     - August 2024
