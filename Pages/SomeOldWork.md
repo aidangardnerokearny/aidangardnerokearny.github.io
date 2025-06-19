@@ -10,10 +10,18 @@ I try to keep a complete repository of previous work I've done, even if it's no 
     - I worked on this while I was a SULI intern at Brookhaven National Lab
 - [Background Ionization Behavior For Combined dE/dx And Disappearing Track Analysis](/Documents/AidanGardnerOKearnySymposiumPosterPrintable.pdf)
     - May 2025
-    - My first stab at a poster, very, very wordy
+    - My first stab at a poster, very, very wordy. Made for the 2024 UO Undergraduate Research Symposium
 
 
 ## Presentations
 
 
 ## Written Work
+
+
+## Other Stuff
+- [Blackout](https://www.youtube.com/watch?v=ssIP8UMuIh0)
+
+
+
+{% include youtube.html id="ssIP8UMuIh0" %}

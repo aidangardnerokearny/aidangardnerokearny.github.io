@@ -17,7 +17,7 @@ Email: `aidan.gardnerokearny@cern.ch`
 - [Linkedin](https://www.linkedin.com/in/aidangardnerokearny)
 - [Gitlab](https://gitlab.cern.ch/agardner)
 - [Github](https://github.com/aidangardnerokearny)
-- [Letterboxd](https://letterboxd.com/agardner/) (My backup plan if physics doesn't work out is to make it big as a Letterboxd influencer)
 
 ## [Some Old Work](Pages/SomeOldWork.md)
 ## [A Link To My CV]()
+## [Writing]
