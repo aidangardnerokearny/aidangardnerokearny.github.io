@@ -4,15 +4,22 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Aidan Gardner-O'Kearny
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<img style="float: right; margin-left=50px; margin-right=100px"
+    width="300"
+    alt="A (slightly) old picture of me at a live recording of Wait Wait Don't Tell Me in Chicago"
+    src="_documents/AGOPicture.jpg">
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Hey there! I'm Aidan Gardner-O'Kearny, an incoming physics PhD student at the University of Tennessee, Knoxville. I'm interested in high energy experiment, specifically searches for Beyond-the-Standard-Model physics utilizing exotic detector signatures. I'm also interested in the development of a 10 TeV Muon collider.
 
+I worked as a part of the ATLAS Collaboration while I was an undergraduate at the University of Oregon. During my time with ATLAS I worked on both a long-lived particle search and a search for BSM scalars.
 
-[jekyll-organization]: https://github.com/jekyll
+This website was mainly an excuse to have a place to store my CV, but the barrier to adding additional content to it is shockingly low, so I am going to use this place for all sorts of things.
+
+Email: `aidan.gardnerokearny@cern.ch`
+
+## Where To Find Me 
+- [Linkedin](https://www.linkedin.com/in/aidangardnerokearny)
+- [Gitlab](https://gitlab.cern.ch/agardner)
+- [Github](https://github.com/aidangardnerokearny)
