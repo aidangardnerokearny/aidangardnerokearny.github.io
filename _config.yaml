@@ -1,4 +1,7 @@
 title: Aidan Gardner-O’Kearny
 
+
+plugins:
+  - jekyll-remote-theme
 # theme: jekyll-theme-slate
 remote-theme: jekyll-theme-chirpy 
