@@ -18,13 +18,17 @@ email: aidan.gardnerokearny@cern.ch
 description: >- # this means to ignore newlines until "baseurl:"
   
 baseurl: "" # the subpath of your site, e.g. /blog
-#url: "https://aidangardnerokearny.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-#gitlab_username: agardner
+url: "https://aidangardnerokearny.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+gitlab_username: agardner
 github_username:  aidangardnerokearny
+
+plugins
+  - remote_theme
 
 # Build settings
 markdown: kramdown
-theme: minima 
+#theme: minima
+remote_theme: benbalter/retlab 
 plugins:
   - jekyll-feed
 
