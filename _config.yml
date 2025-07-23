@@ -22,7 +22,7 @@ url: "https://aidangardnerokearny.github.io/" # the base hostname & protocol for
 gitlab_username: agardner
 github_username:  aidangardnerokearny
 
-plugins
+plugins:
   - remote_theme
 
 # Build settings
