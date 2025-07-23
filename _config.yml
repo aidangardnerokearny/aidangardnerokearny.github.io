@@ -24,13 +24,12 @@ github_username:  aidangardnerokearny
 
 plugins:
   - remote_theme
+  - jekyll-feed
 
 # Build settings
 markdown: kramdown
 #theme: minima
-remote_theme: benbalter/retlab 
-plugins:
-  - jekyll-feed
+remote_theme: jekyll-theme-chirpy 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
