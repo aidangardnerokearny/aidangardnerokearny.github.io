@@ -22,7 +22,7 @@ repository               : "aidangardnerokearny/aidangardnerokearny.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "AGOPhoto.png"
+  avatar           : "AGOPhoto.jpg"
   name             : "Aidan Gardner-O'Kearny"
   pronouns         : "he/him"  
   bio              : ""
