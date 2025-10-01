@@ -2,9 +2,15 @@
 layout: default
 ---
 
+# Important Notice
+
+Very much under construction at the moment!
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
+
+[Link to another page](./pages/_posts/plateLunchIntro.md)
 
 There should be whitespace between paragraphs.
 
