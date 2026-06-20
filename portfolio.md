@@ -9,8 +9,7 @@ permalink: /portfolio/
     <p class="section__label">Publications</p>
     <div class="prose">
       <p>
-        A full list is below. The starred entries also appear on the home page.
-        Manage everything from <code>_data/portfolio.yml</code> — no HTML required.
+        Including a lot of stuff from my undergrad. I think it's important to be able to see a realistic improvement timeline out there. Nothing pops out perfect without having done a lot of worse attempts first.
       </p>
     </div>
   </div>
