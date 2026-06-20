@@ -1,0 +1,117 @@
+---
+layout: default
+---
+
+<!-- ───────────────────────── HERO ───────────────────────── -->
+<section class="hero">
+  <div class="hero__inner">
+    <div class="hero__text">
+      <p class="eyebrow">{{ site.role }} · {{ site.university }}</p>
+      <h1 class="hero__name">{{ site.name }}</h1>
+      <p class="hero__tagline">{{ site.tagline }}</p>
+
+      <div class="hero__actions">
+        {%- if site.email   != "" -%}<a class="btn btn--solid" href="mailto:{{ site.email }}">Email</a>{%- endif -%}
+        {%- if site.cv_pdf  != "" -%}<a class="btn" href="{{ site.cv_pdf | relative_url }}">CV ↓</a>{%- endif -%}
+        {%- if site.github  != "" -%}<a class="btn" href="https://github.com/{{ site.github }}">GitHub</a>{%- endif -%}
+        {%- if site.scholar != "" -%}<a class="btn" href="{{ site.scholar }}">Scholar</a>{%- endif -%}
+        {%- if site.inspire != "" -%}<a class="btn" href="{{ site.inspire }}">INSPIRE</a>{%- endif -%}
+      </div>
+    </div>
+
+  <div class="hero__art">
+      <img class="hero__photo" src="{{ '/assets/img/profile.jpg' | relative_url }}"
+           alt="Aidan Gardner-O'Kearny">
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── ABOUT ───────────────────────── -->
+<section class="section" id="about">
+  <div class="section__grid">
+    <p class="section__label">About</p>
+    <div class="prose">
+      <p>
+        I'm a PhD student in {{ site.institution }} at {{ site.university }}, working on the M
+      </p>
+      <p>
+        Edit this paragraph in <code>index.html</code>. Two or three sentences is plenty:
+        who you are, what you work on, and one thing that makes your angle specific.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── RESEARCH ───────────────────────── -->
+<section class="section section--alt" id="research">
+  <div class="section__grid">
+    <p class="section__label">Research</p>
+    <div class="research">
+
+      <article class="research__item">
+        <h3>Particle-flow reconstruction for MAIA</h3>
+        <p>
+          Adapting the PandoraPFA particle-flow chain to the MAIA muon-collider detector
+          geometry, and measuring how well it separates and calibrates the particles coming
+          out of a collision.
+        </p>
+      </article>
+
+      <article class="research__item">
+        <h3>Shower profiles &amp; photon identification</h3>
+        <p>
+          Tracing how PandoraPFA's longitudinal pseudo-layer scheme treats the in-calorimeter
+          solenoid — and why ignoring those few radiation lengths of upstream material biases
+          photon ID. Built a monitoring algorithm to pull shower-profile variables into ROOT.
+        </p>
+      </article>
+
+      <article class="research__item">
+        <h3>Detector simulation &amp; software</h3>
+        <p>
+          Day-to-day work on the MuColl stack — DD4hep, iLCSoft, k4geo — running inside
+          containerized, Spack-managed environments on a computing cluster, with the
+          analysis side in Julia.
+        </p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── SELECTED WORK ───────────────────────── -->
+<section class="section" id="work">
+  <div class="section__grid">
+    <p class="section__label">Selected work</p>
+    <div class="pub-list pub-list--flat">
+      <ul>
+        {%- for pub in site.data.portfolio.list -%}
+          {%- if pub.selected -%}
+          <li class="pub">
+            <span class="pub__year">{{ pub.year }}</span>
+            {%- include pub.html pub=pub -%}
+          </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+      <p class="more-link"><a href="{{ '/publications/' | relative_url }}">All publications →</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── NEWS ───────────────────────── -->
+{%- if site.data.news and site.data.news.size > 0 -%}
+<section class="section section--alt" id="news">
+  <div class="section__grid">
+    <p class="section__label">News</p>
+    <ul class="news">
+      {%- for item in site.data.news -%}
+      <li class="news__item">
+        <time class="news__date">{{ item.date | date: "%b %Y" }}</time>
+        <span class="news__text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>
+{%- endif -%}

@@ -1,0 +1,27 @@
+{%- comment -%}
+  Renders one publication's main block. Call with:  {% include pub.html pub=entry %}
+  Auto-bolds the name set in _data/publications.yml -> author_key.
+{%- endcomment -%}
+{%- assign pub = include.pub -%}
+{%- assign key = site.data.portfolio.author_key -%}
+{%- capture bolded -%}<strong class="me">{{ key }}</strong>{%- endcapture -%}
+
+<div class="pub__main">
+  <h3 class="pub__title">{{ pub.title }}</h3>
+  <p class="pub__authors">{{ pub.authors | replace: key, bolded }}</p>
+  <p class="pub__venue">
+    {{ pub.venue }}{% if pub.note %} · <em class="pub__note">{{ pub.note }}</em>{% endif %}
+  </p>
+
+  {%- assign l = pub.links -%}
+  {%- if l -%}
+  <p class="pub__links">
+    {%- if l.pdf    -%}<a href="{{ l.pdf    | relative_url }}">PDF</a>{%- endif -%}
+    {%- if l.arxiv  -%}<a href="{{ l.arxiv  }}">arXiv</a>{%- endif -%}
+    {%- if l.doi    -%}<a href="{{ l.doi    }}">DOI</a>{%- endif -%}
+    {%- if l.code   -%}<a href="{{ l.code   }}">Code</a>{%- endif -%}
+    {%- if l.slides -%}<a href="{{ l.slides | relative_url }}">Slides</a>{%- endif -%}
+    {%- if l.poster -%}<a href="{{ l.poster | relative_url }}">Poster</a>{%- endif -%}
+  </p>
+  {%- endif -%}
+</div>

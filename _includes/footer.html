@@ -1,0 +1,21 @@
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__col">
+      <p class="footer__name">{{ site.name }}</p>
+      <p class="footer__meta">{{ site.role }} · {{ site.university }}</p>
+    </div>
+
+    <nav class="footer__links" aria-label="Profiles">
+      {%- if site.email and site.email != "" -%}<a href="mailto:{{ site.email }}">Email</a>{%- endif -%}
+      {%- if site.github and site.github != "" -%}<a href="https://github.com/{{ site.github }}">GitHub</a>{%- endif -%}
+      {%- if site.scholar and site.scholar != "" -%}<a href="{{ site.scholar }}">Scholar</a>{%- endif -%}
+      {%- if site.inspire and site.inspire != "" -%}<a href="{{ site.inspire }}">INSPIRE</a>{%- endif -%}
+      {%- if site.orcid and site.orcid != "" -%}<a href="https://orcid.org/{{ site.orcid }}">ORCID</a>{%- endif -%}
+    </nav>
+  </div>
+
+  <div class="footer__base">
+    <span>© {{ 'now' | date: "%Y" }} {{ site.name }}</span>
+    <span>Built with Jekyll · last updated {{ site.time | date: "%b %Y" }}</span>
+  </div>
+</footer>

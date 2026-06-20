@@ -1,0 +1,47 @@
+# ─────────────────────────────────────────────────────────────
+#  PUBLICATIONS  —  newest first.
+#
+#  Fields per entry:
+#    title    (required)
+#    authors  (required) — write your own name exactly as in `author_key`
+#                          below and it will be auto-bolded.
+#    venue    journal / conference / "Preprint" / "PhD thesis", etc.
+#    year     (required) — groups the list
+#    selected true  -> also appears in the "Selected work" block on the home page
+#    note     small italic tag, e.g. "In preparation", "Submitted"
+#    links:   any of  pdf / arxiv / doi / code / slides / poster  (omit unused)
+# ─────────────────────────────────────────────────────────────
+
+# Used to bold your name wherever it appears in an `authors` string.
+author_key: "Gardner-O'Kearny"
+
+list:
+  - title: "Combinatorial fake discriminatory selections for combined dE/dx and disappearing
+    track search with the ATLAS detector"
+    authors: "A. Gardner-O'Kearny"
+    year: 2026
+    selected: true
+    note: "Undergraduate Thesis"
+    links:
+      pdf: "/assets/ago_thesis.pdf"
+
+  - title: "Particle-flow reconstruction performance for the MAIA muon collider
+            detector concept"
+    authors: "MAIA Collaboration"
+    venue: "Proceedings of Science (ICHEP 2026)"
+    year: 2026
+    selected: true
+    note: "Proceedings"
+    links:
+      arxiv: "https://arxiv.org/abs/0000.00000"
+      slides: "/assets/cv.pdf"
+
+  - title: "A monitoring framework for longitudinal and transverse shower
+            profiles in PandoraPFA"
+    authors: "A. Gardner-O'Kearny"
+    venue: "Internal note"
+    year: 2025
+    selected: false
+    note: "Technical note"
+    links:
+      pdf: "/assets/cv.pdf"

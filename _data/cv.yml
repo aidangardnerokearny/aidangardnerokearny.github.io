@@ -1,0 +1,42 @@
+# ─────────────────────────────────────────────────────────────
+#  CV DATA  —  feeds the condensed CV on /cv/.
+#  Your full PDF CV is separate: drop it at  assets/cv.pdf
+# ─────────────────────────────────────────────────────────────
+
+education:
+  - period: "2025 — Present"
+    degree: "Ph.D. in Physics"
+    place:  "University of Tennessee"
+    detail: "Advisor: Tova Holmes"
+
+  - period: "2021 — 2025"
+    degree: "B.S. in Physics"
+    place:  "University of Oregon"
+    detail: "Senior thesis on background characterization
+             for a search for long-lived, massive particles. Graduated with honors."
+
+experience:
+  - period: "2026 — present"
+    role:   "Graduate Research Assistant"
+    place:  "MAIA / Muon Collider Detector group"
+    detail: "Develop and validate reconstruction software (PandoraPFA,
+             DDMarlinPandora, LCContent) for the MAIA detector concept;
+             study electromagnetic shower profiles and photon ID."
+
+  - period: "2023"
+    role:   "SULI Intern"
+    place:  "Brookhaven National Laboratory"
+    detail: "Worked on highly boosted jet tagging for a SH->bbyy analysis."
+
+teaching:
+  - period: "2025-2026"
+    role:   "Teaching Assistant — Electromagnetism For Engineers"
+    place:  "University of Tennessee"
+
+skills:
+  - group: "Languages"
+    items: "Julia · Python · C++ · Bash"
+  - group: "HEP software"
+    items: "ROOT · DD4hep · iLCSoft · PandoraPFA · LCIO · Marlin"
+  - group: "Tools"
+    items: "Git · Linux · Singularity/Apptainer · Spack · HTCondor"

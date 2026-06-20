@@ -1,0 +1,9 @@
+# ─────────────────────────────────────────────────────────────
+#  NEWS / UPDATES  —  newest first. Short, dated lines.
+#  `date` accepts any YYYY-MM-DD; it renders as "Mon YYYY".
+#  Use **markdown** for links inside `text`.
+# ─────────────────────────────────────────────────────────────
+
+
+- date: 2026-06-19
+  text: "Hello world"

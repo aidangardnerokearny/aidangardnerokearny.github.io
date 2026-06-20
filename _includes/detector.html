@@ -1,0 +1,66 @@
+{%- comment -%}
+  Signature graphic: a muon-collider detector cross-section.
+  Concentric rings = subsystems (tracker → solenoid → ECAL → HCAL → muon).
+  The solenoid ring is highlighted; curving lines are charged-particle tracks
+  bending in the field; the dashed line is a neutral photon converting into an
+  electromagnetic shower in the ECAL. Colors come from style.css (themeable).
+{%- endcomment -%}
+<figure class="detector" aria-labelledby="det-title">
+  <div class="detector__readout">
+    <span>MAIA</span><span>detector cross-section</span>
+  </div>
+
+  <svg class="detector__svg" viewBox="0 0 420 420" role="img" aria-labelledby="det-title det-desc">
+    <title id="det-title">Muon collider detector cross-section</title>
+    <desc id="det-desc">Concentric detector subsystems with particle tracks and a converting photon.</desc>
+
+    <!-- subsystem rings -->
+    <circle class="det-ring" cx="210" cy="210" r="185"/>
+    <circle class="det-ring" cx="210" cy="210" r="152"/>
+    <circle class="det-ring" cx="210" cy="210" r="104"/>
+    <circle class="det-ring det-ring--solenoid" cx="210" cy="210" r="72"/>
+    <circle class="det-ring" cx="210" cy="210" r="40"/>
+
+    <!-- faint energy deposits -->
+    <g class="det-hits">
+      <circle class="det-hit" cx="300" cy="176" r="2.4"/>
+      <circle class="det-hit" cx="326" cy="156" r="2.0"/>
+      <circle class="det-hit" cx="300" cy="246" r="2.4"/>
+      <circle class="det-hit" cx="330" cy="236" r="2.0"/>
+      <circle class="det-hit" cx="150" cy="266" r="2.2"/>
+      <circle class="det-hit" cx="122" cy="286" r="1.8"/>
+    </g>
+
+    <!-- charged-particle tracks (bending in the solenoidal field) -->
+    <path class="det-track det-track--a" pathLength="1" d="M210 210 C 248 184 306 176 360 138"/>
+    <path class="det-track det-track--b" pathLength="1" d="M210 210 C 246 232 300 250 366 240"/>
+    <path class="det-track det-track--c" pathLength="1" d="M210 210 C 188 246 150 272 96 300"/>
+    <circle class="det-tip det-tip--a" cx="360" cy="138" r="3.2"/>
+    <circle class="det-tip det-tip--b" cx="366" cy="240" r="3.2"/>
+    <circle class="det-tip det-tip--c" cx="96"  cy="300" r="3.0"/>
+
+    <!-- neutral photon: straight, then an EM shower blooming in the ECAL -->
+    <path class="det-photon" pathLength="1" d="M210 210 L 116 176"/>
+    <g class="det-shower">
+      <path class="det-shower-seg" d="M116 176 L 96 162"/>
+      <path class="det-shower-seg" d="M116 176 L 104 152"/>
+      <path class="det-shower-seg" d="M116 176 L 90 186"/>
+      <path class="det-shower-seg" d="M116 176 L 110 190"/>
+      <circle class="det-hit" cx="96"  cy="162" r="2.0"/>
+      <circle class="det-hit" cx="104" cy="152" r="2.0"/>
+      <circle class="det-hit" cx="90"  cy="186" r="2.0"/>
+      <circle class="det-hit" cx="110" cy="190" r="2.0"/>
+    </g>
+
+    <!-- interaction point -->
+    <circle class="det-ip" cx="210" cy="210" r="4.5"/>
+  </svg>
+
+  <figcaption class="detector__legend">
+    <span>tracker</span>
+    <span class="is-solenoid">solenoid</span>
+    <span>ECAL</span>
+    <span>HCAL</span>
+    <span>muon</span>
+  </figcaption>
+</figure>

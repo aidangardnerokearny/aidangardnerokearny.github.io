@@ -1,6 +1,53 @@
-title: Aidan Gardner-O'Kearny
-logo: /assets/img/AidanHeaderPhoto.png
-description: A webpage for Aidan Gardner-O'Kearny
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-minimal
+# ─────────────────────────────────────────────────────────────
+#  SITE CONFIG  —  edit everything here, then in _data/*.yml
+#  Most of "your website" is just the values on this page.
+# ─────────────────────────────────────────────────────────────
+
+# --- Who you are -------------------------------------------------
+name:      "Aidan Gardner-O'Kearny"     # shown in the hero + nav
+role:      "PhD Student in Physics"
+# A one-line research thesis. Keep it human, not a keyword salad.
+tagline:   "High-Energy experimentalist interested in exotic detector 
+            signatures, future collider development, and the future of
+            computation for high-energy physics"
+institution: "Department of Physics and Astronomy"
+university:  "University of Tennessee"
+location:    "Knoxville, TN"
+
+# --- Contact + profiles -----------------------------------------
+# Leave a value blank ("") to hide that link automatically.
+email:        "aidangardnerokearny@gmail.com"
+github:       "aidangardnerokearny"     # username only
+scholar:      ""                        # full Google Scholar URL
+orcid:        ""                        # e.g. 0000-0000-0000-0000
+inspire:      ""                        # INSPIRE-HEP author URL (HEP-specific)
+arxiv:        ""                        # arXiv author listing URL
+linkedin:     ""                        # username only
+cv_pdf:       "/assets/ago_cv.pdf"          # drop your CV at assets/cv.pdf
+
+# --- SEO / deployment -------------------------------------------
+# For a USER site (username.github.io):  url = https://username.github.io , baseurl = ""
+# For a PROJECT site (username.github.io/repo):  baseurl = "/repo"
+title:       "Aidan Gardner-O'Kearny"
+description: "PhD student in physics working on
+             particle-flow reconstruction at the MAIA detector for a future 10 TeV Muon Collider"
+url:         "https://aidangardnerokearny.github.io"
+baseurl:     ""
+lang:        "en"
+
+# --- Build settings (you can usually ignore these) --------------
+markdown:    kramdown
+permalink:   pretty
+timezone:    America/Knoxville
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github
+
+# GitHub Pages whitelisted plugins (safe to keep)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
