@@ -50,5 +50,6 @@ list:
     authors: "A. Gardner-O'Kearny, A. Tishelman-Charny, E. Brost"
     year: 2024
     selected: false
+    note: "Presented at Brookhaven SULI poster session"
     links:
       poster: "/assets/portfolio/ago_shbbyy_poster.pdf"
