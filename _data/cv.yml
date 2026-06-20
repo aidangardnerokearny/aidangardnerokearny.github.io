@@ -22,8 +22,14 @@ experience:
     detail: "Develop reconstruction strategies for the MAIA 
              detector concept; studed electromagnetic shower development
              for photon tagging."
+  - period: "2023-2025"
+    role:   "Undergraduate Research Assistant"
+    place:  "JeantyGroup - Universitoy of Oregon"
+    detail: "Devloped understanding of combinatorial fake background for
+             dE/dx and disappearing track signature search in addition
+             to selections meant to surpress background."
 
-  - period: "2023"
+  - period: "2024"
     role:   "SULI Intern"
     place:  "Brookhaven National Laboratory"
     detail: "Worked on highly boosted jet tagging for a SH->bbyy analysis."
