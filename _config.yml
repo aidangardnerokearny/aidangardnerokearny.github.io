@@ -29,11 +29,11 @@ cv_pdf:       "/assets/ago_cv.pdf"          # drop your CV at assets/cv.pdf
 # For a USER site (username.github.io):  url = https://username.github.io , baseurl = ""
 # For a PROJECT site (username.github.io/repo):  baseurl = "/repo"
 title:       "Aidan Gardner-O'Kearny"
-description: "PhD student in physics working on
-             particle-flow reconstruction at the MAIA detector for a future 10 TeV Muon Collider"
+description: "PhD student in high-energy experimental physics"
 url:         "https://aidangardnerokearny.github.io"
 baseurl:     ""
 lang:        "en"
+image: "/assets/img/ago_profile.png"
 
 # --- Build settings (you can usually ignore these) --------------
 markdown:    kramdown
