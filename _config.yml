@@ -33,7 +33,7 @@ description: "PhD student in high-energy experimental physics"
 url:         "https://aidangardnerokearny.github.io"
 baseurl:     ""
 lang:        "en"
-image: "/assets/img/ago_profile.png"
+image: "/assets/img/og-card.png"
 
 # --- Build settings (you can usually ignore these) --------------
 markdown:    kramdown
