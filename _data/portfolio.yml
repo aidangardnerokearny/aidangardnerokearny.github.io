@@ -31,7 +31,6 @@ list:
     venue: "APS Global Summit"
     year: 2025
     selected: true
-    note: "APS Global Summit"
     links:
       slides: "/assets/portfolio/AGO_APS_Presentation.pdf"
 
@@ -41,6 +40,15 @@ list:
     venue: "UO Undergraduate Research Symposium"
     year: 2025
     selected: false
-    note: "Technical note"
+    note: "Poster presentation"
     links:
-      pdf: "/assets/cv.pdf"
+      pdf: "/assets/portfolio/AGOSymposiumPoster2025.pdf"
+
+  - title: "Comparing resolved and boosted jet identification algorithms
+    to search for beyond the Standard Model scalar bosons with the 
+    ATLAS detector"
+    authors: "A. Gardner-O'Kearny, A. Tishelman-Charny, E. Brost"
+    year: 2024
+    selected: false
+    links:
+      poster: "/assets/portfolio/ago_shbbyy_poster.pdf"
