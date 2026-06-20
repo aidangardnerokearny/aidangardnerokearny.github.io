@@ -19,27 +19,26 @@ list:
   - title: "Combinatorial fake discriminatory selections for combined dE/dx and disappearing
     track search with the ATLAS detector"
     authors: "A. Gardner-O'Kearny"
-    year: 2026
+    year: 2025
     selected: true
     note: "Undergraduate Thesis"
     links:
-      pdf: "/assets/ago_thesis.pdf"
+      pdf: "/assets/portfolio/ago_thesis.pdf"
 
-  - title: "Particle-flow reconstruction performance for the MAIA muon collider
-            detector concept"
-    authors: "MAIA Collaboration"
-    venue: "Proceedings of Science (ICHEP 2026)"
-    year: 2026
+  - title: "Ionization behavior studies for dE/dx and disappearing track
+    signature search"
+    authors: "A. Gardner-O'Kearny, L. Jeanty, N. Young"
+    venue: "APS Global Summit"
+    year: 2025
     selected: true
-    note: "Proceedings"
+    note: "APS Global Summit"
     links:
-      arxiv: "https://arxiv.org/abs/0000.00000"
-      slides: "/assets/cv.pdf"
+      slides: "/assets/portfolio/AGO_APS_Presentation.pdf"
 
-  - title: "A monitoring framework for longitudinal and transverse shower
-            profiles in PandoraPFA"
-    authors: "A. Gardner-O'Kearny"
-    venue: "Internal note"
+  - title: "Combinatorial fake discimination studies for combined dE/dx
+    and disappearing track search"
+    authors: "A. Gardner-O'Kearny, L. Jeanty, N. Young"
+    venue: "UO Undergraduate Research Symposium"
     year: 2025
     selected: false
     note: "Technical note"
