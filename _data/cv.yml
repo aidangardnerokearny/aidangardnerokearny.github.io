@@ -18,10 +18,10 @@ education:
 experience:
   - period: "2026 — present"
     role:   "Graduate Research Assistant"
-    place:  "MAIA / Muon Collider Detector group"
-    detail: "Develop and validate reconstruction software (PandoraPFA,
-             DDMarlinPandora, LCContent) for the MAIA detector concept;
-             study electromagnetic shower profiles and photon ID."
+    place:  "MAIA / Muon Collider Collaboration"
+    detail: "Develop reconstruction strategies for the MAIA 
+             detector concept; studed electromagnetic shower development
+             for photon tagging."
 
   - period: "2023"
     role:   "SULI Intern"
@@ -32,6 +32,8 @@ teaching:
   - period: "2025-2026"
     role:   "Teaching Assistant — Electromagnetism For Engineers"
     place:  "University of Tennessee"
+    detail: "Led multiple lab sections of PHYS 210 in addition to assisting
+            with grading for main course."
 
 skills:
   - group: "Languages"
