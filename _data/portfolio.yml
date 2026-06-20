@@ -42,7 +42,7 @@ list:
     selected: false
     note: "Poster presentation"
     links:
-      pdf: "/assets/portfolio/AGOSymposiumPoster2025.pdf"
+      poster: "/assets/portfolio/AGOSymposiumPoster2025.pdf"
 
   - title: "Comparing resolved and boosted jet identification algorithms
     to search for beyond the Standard Model scalar bosons with the 
