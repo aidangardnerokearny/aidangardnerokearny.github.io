@@ -35,7 +35,8 @@
   --det-photon:   #cfd6e4;
 
   /* type */
-  --font-display: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  /*--font-display: 'Space Grotesk', system-ui, -apple-system, sans-serif;*/
+  --font-display: ' Open Sans', system-ui, -apple-system, sans-serif;
   --font-body:    'Source Serif 4', Georgia, 'Times New Roman', serif;
   --font-mono:    'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
 
