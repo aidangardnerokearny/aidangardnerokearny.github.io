@@ -38,7 +38,7 @@
   /*--font-display: 'Space Grotesk', system-ui, -apple-system, sans-serif;*/
   --font-display: ' Open Sans', system-ui, -apple-system, sans-serif;
   /*--font-body:    'Source Serif 4', Georgia, 'Times New Roman', serif;*/
-  --font-body:    'Space Grotesk',  Verdana, Verdana, sans-serif;
+  --font-body:    'Space Grotesk',  Open Sans, Verdana, sans-serif;
   --font-mono:    'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
 
   --maxw: 1100px;
