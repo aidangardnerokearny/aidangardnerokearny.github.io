@@ -19,11 +19,11 @@ location:    "Knoxville, TN"
 email:        "aidangardnerokearny@gmail.com"
 github:       "aidangardnerokearny"     # username only
 scholar:      ""                        # full Google Scholar URL
-orcid:        ""                        # e.g. 0000-0000-0000-0000
+orcid:        "0009-0004-3859-2985"     # e.g. 0000-0000-0000-0000
 inspire:      ""                        # INSPIRE-HEP author URL (HEP-specific)
 arxiv:        ""                        # arXiv author listing URL
-linkedin:     ""                        # username only
-cv_pdf:       "/assets/ago_cv.pdf"          # drop your CV at assets/cv.pdf
+linkedin:     "aidangardnerokearny"     # username only
+cv_pdf:       "/assets/ago_cv.pdf"      # drop your CV at assets/cv.pdf
 
 # --- SEO / deployment -------------------------------------------
 # For a USER site (username.github.io):  url = https://username.github.io , baseurl = ""
