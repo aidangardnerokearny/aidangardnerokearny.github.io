@@ -1,9 +1,9 @@
 # Physics PhD — academic website
 
 A clean, self-contained [Jekyll](https://jekyllrb.com) template built for
-GitHub Pages. No external theme to fight with — the layout, styles, and a
-detector-cross-section signature graphic are all in this repo, so you can read
-and bend every line. Content lives in YAML and config; you rarely touch HTML.
+GitHub Pages. There's no  external theme to fight with; the layout, styles, and a
+detector-cross-section signature graphic are all in this repo, and can be edited
+freely. Content lives in YAML and config; you rarely touch HTML.
 
 ```
 .
@@ -13,7 +13,7 @@ and bend every line. Content lives in YAML and config; you rarely touch HTML.
 │   ├── news.yml           ← short dated updates for the home page
 │   └── cv.yml             ← education / experience / teaching / skills
 ├── index.html             ← home: hero, about, research, selected work, news
-├── portfolio.md        ← /portfolio/  (full list)
+├── portfolio.md           ← /portfolio/  (full list)
 ├── cv.md                  ← /cv/            (condensed CV + PDF link)
 ├── _layouts/  _includes/  ← the theme (nav, footer, detector graphic, etc.)
 └── assets/
@@ -27,7 +27,7 @@ and bend every line. Content lives in YAML and config; you rarely touch HTML.
 1. **`_config.yml`** — name, role, tagline, university, and every link
    (email, GitHub, Google Scholar, ORCID, INSPIRE, arXiv, LinkedIn). Leave any
    value as `""` and that link disappears automatically.
-2. **`_data/publications.yml`** — replace the example papers. Set `selected: true`
+2. **`_data/portoflio.yml`** — replace the example papers. Set `selected: true`
    to feature one on the home page. Set `author_key` to your surname and your
    name gets bolded wherever it appears in an author list.
 3. **`_data/news.yml`** and **`_data/cv.yml`** — your updates and CV entries.
