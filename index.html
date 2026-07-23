@@ -13,7 +13,8 @@ layout: default
       <div class="hero__actions">
         {%- if site.email   != "" -%}<a class="btn btn--solid" href="mailto:{{ site.email }}">Email</a>{%- endif -%}
         {%- if site.cv_pdf  != "" -%}<a class="btn" href="{{ site.cv_pdf | relative_url }}">CV ↓</a>{%- endif -%}
-        {%- if site.github  != "" -%}<a class="btn" href="https://github.com/{{ site.github }}">GitHub</a>{%- endif -%}
+        {%- if site.github  != "" -%}<a class="btn" href="https://github.com/{{ site.github }}">github</a>{%- endif -%}
+        {%- if site.gitlab  != "" -%}<a class="btn" href="https://gitlab.cern.ch/{{ site.gitlab }}">gitlab</a>{%- endif -%}
         {%- if site.scholar != "" -%}<a class="btn" href="{{ site.scholar }}">Scholar</a>{%- endif -%}
         {%- if site.inspire != "" -%}<a class="btn" href="{{ site.inspire }}">INSPIRE</a>{%- endif -%}
       </div>

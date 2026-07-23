@@ -16,8 +16,9 @@ location:    "Knoxville, TN"
 
 # --- Contact + profiles -----------------------------------------
 # Leave a value blank ("") to hide that link automatically.
-email:        "aidangardnerokearny@gmail.com"
+email:        "aidan.gardnerokearny@cern.ch"
 github:       "aidangardnerokearny"     # username only
+gitlab:       "agardner"                # username only
 scholar:      ""                        # full Google Scholar URL
 orcid:        "0009-0004-3859-2985"     # e.g. 0000-0000-0000-0000
 inspire:      ""                        # INSPIRE-HEP author URL (HEP-specific)
