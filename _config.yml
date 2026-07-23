@@ -17,14 +17,14 @@ location:    "Knoxville, TN"
 # --- Contact + profiles -----------------------------------------
 # Leave a value blank ("") to hide that link automatically.
 email:        "aidan.gardnerokearny@cern.ch"
-github:       "aidangardnerokearny"     # username only
-gitlab:       "agardner"                # username only
-scholar:      ""                        # full Google Scholar URL
-orcid:        "0009-0004-3859-2985"     # e.g. 0000-0000-0000-0000
-inspire:      ""                        # INSPIRE-HEP author URL (HEP-specific)
-arxiv:        ""                        # arXiv author listing URL
-linkedin:     "aidangardnerokearny"     # username only
-cv_pdf:       "/assets/ago_cv.pdf"      # drop your CV at assets/cv.pdf
+github:       "aidangardnerokearny"              # username only
+gitlab:       "https://gitlab.cern.ch/agardner"  # full URL 
+scholar:      ""                                 # full Google Scholar URL
+orcid:        "0009-0004-3859-2985"              # e.g. 0000-0000-0000-0000
+inspire:      ""                                 # INSPIRE-HEP author URL (HEP-specific)
+arxiv:        ""                                 # arXiv author listing URL
+linkedin:     "aidangardnerokearny"              # username only
+cv_pdf:       "/assets/ago_cv.pdf"               # drop your CV at assets/cv.pdf
 
 # --- SEO / deployment -------------------------------------------
 # For a USER site (username.github.io):  url = https://username.github.io , baseurl = ""
