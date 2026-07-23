@@ -8,6 +8,7 @@
     <nav class="footer__links" aria-label="Profiles">
       {%- if site.email and site.email != "" -%}<a href="mailto:{{ site.email }}">Email</a>{%- endif -%}
       {%- if site.github and site.github != "" -%}<a href="https://github.com/{{ site.github }}">GitHub</a>{%- endif -%}
+      {%- if site.gitlab and site.gitlab != "" -%}<a href="{{ site.gitlab }}">GitLab</a>{%- endif -%}
       {%- if site.scholar and site.scholar != "" -%}<a href="{{ site.scholar }}">Scholar</a>{%- endif -%}
       {%- if site.inspire and site.inspire != "" -%}<a href="{{ site.inspire }}">INSPIRE</a>{%- endif -%}
       {%- if site.orcid and site.orcid != "" -%}<a href="https://orcid.org/{{ site.orcid }}">ORCID</a>{%- endif -%}
