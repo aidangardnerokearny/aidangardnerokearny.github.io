@@ -1,8 +1,8 @@
 # Physics PhD — academic website
 
 A clean, self-contained [Jekyll](https://jekyllrb.com) template built for
-GitHub Pages. There's no  external theme to fight with; the layout, styles, and a
-detector-cross-section signature graphic are all in this repo, and can be edited
+GitHub Pages. There's no  external theme to fight with; the layout and styles
+are all in this repo, and can be edited
 freely. Content lives in YAML and config; you rarely touch HTML.
 
 ```

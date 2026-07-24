@@ -43,7 +43,7 @@ teaching:
 
 skills:
   - group: "Languages"
-    items: "Julia · Python · C++ · Bash"
+    items: "Julia · Python · C++ · Bash · Mojo (learning)"
   - group: "HEP software"
     items: "ROOT · DD4hep · iLCSoft · PandoraPFA · LCIO · Marlin"
   - group: "Tools"

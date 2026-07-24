@@ -13,33 +13,33 @@
 
 
   /* ink + paper */
-  --ink:        #16181d;
-  --ink-2:      #41454f;
-  --muted:      #767b86;
-  --surface:    #ffffff;
-  --paper:      #f4f6f8;
-  --paper-alt:  #f4f6f8;
-  --line:       #e2e5ea;
+  --ink:        #16181d; /**/
+  --ink-2:      #41454f; /**/
+  --muted:      #767b86; /**/
+  --surface:    #ffffff; /**/
+  --paper:      #f4f6f8; /**/
+  --paper-alt:  #f4f6f8; /**/
+  --line:       #e2e5ea; /**/
 
   /* accent (charged-track blue) */
-  --accent:     #2f57e6;
-  --accent-ink: #1f3cae;
-  --accent-soft:#eaeefc;
+  --accent:     #2f57e6; /**/
+  --accent-ink: #1f3cae; /**/
+  --accent-soft:#eaeefc; /**/
 
   /* dark instrument panel */
-  --instrument:   #0d1016;
-  --instr-line:   rgba(255,255,255,.10);
-  --instr-text:   #c4cad6;
-  --instr-muted:  #717a8a;
+  --instrument:   #0d1016; /**/
+  --instr-line:   rgba(255,255,255,.10); /**/
+  --instr-text:   #c4cad6; /**/
+  --instr-muted:  #717a8a; /**/
 
   /* detector graphic */
-  --det-ring:     rgba(255,255,255,.14);
-  --det-solenoid: #5d86ff;
-  --det-track-a:  #45d8df;
-  --det-track-b:  #f0a85a;
-  --det-track-c:  rgba(69,216,223,.5);
-  --det-hit:      rgba(255,255,255,.5);
-  --det-photon:   #cfd6e4;
+  --det-ring:     rgba(255,255,255,.14); /**/
+  --det-solenoid: #5d86ff; /**/
+  --det-track-a:  #45d8df; /**/
+  --det-track-b:  #f0a85a; /**/
+  --det-track-c:  rgba(69,216,223,.5); /**/
+  --det-hit:      rgba(255,255,255,.5); /**/
+  --det-photon:   #cfd6e4; /**/
 
   /* type */
   /*--font-display: 'Space Grotesk', system-ui, -apple-system, sans-serif;*/
@@ -55,18 +55,18 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     color-scheme: dark;
-    --ink:        #eef1f5;
-    --ink-2:      #b8bfcc;
-    --muted:      #858d9c;
-    --surface:    #0d1016;
-    --paper:      #141922;
-    --paper-alt:  #141922;
-    --line:       rgba(255,255,255,.10);
-    --accent:     #5d86ff;
-    --accent-ink: #93aeff;
-    --accent-soft: rgba(93,134,255,.14);
-    --instrument: #080a0e;
-    --nav-bg:     rgba(13,16,22,.82);
+    --ink:        #eef1f5; /*white*/
+    --ink-2:      #b8bfcc; /*gray*/ 
+    --muted:      #858d9c; /*gray*/
+    --surface:    #0d1016; /*black*/
+    --paper:      #141922; /*black*/
+    --paper-alt:  #141922; /*black*/
+    --line:       rgba(255,255,255,.10); /**/
+    --accent:     #5d86ff; /**/
+    --accent-ink: #93aeff; /**/
+    --accent-soft: rgba(93,134,255,.14); /**/
+    --instrument: #080a0e; /**/
+    --nav-bg:     rgba(13,16,22,.82); /**/
     --sun: inline;
     --moon: none;
   }
@@ -128,7 +128,7 @@ code {
 /* ── nav ────────────────────────────────────────────────────── */
 .nav {
   position: sticky; top: 0; z-index: 50;
-  background: var(--nav-bg);
+  background: rgba(255,255,255,.82);
   backdrop-filter: saturate(140%) blur(10px);
   border-bottom: 1px solid var(--line);
 }
@@ -150,25 +150,13 @@ code {
   content: ""; position: absolute; inset: 3px;
   border-radius: 50%; background: var(--accent);
 }
-.nav__links { display: flex; align-items: center; gap: 1.6rem; }
+.nav__links { display: flex; gap: 1.6rem; }
 .nav__links a {
   font-family: var(--font-display); font-size: .92rem; font-weight: 500;
   color: var(--ink-2); text-decoration: none;
 }
 .nav__links a:hover { color: var(--accent); }
 .nav__checkbox, .nav__burger { display: none; }
-
-theme-toggle {
-  display: inline-flex; align-items: center; justify-content: center;
-  width: 34px; height: 34px; padding: 0;
-  background: none; border: 1px solid var(--line); border-radius: 8px;
-  color: var(--ink-2); cursor: pointer;
-  transition: border-color .15s, color .15s;
-}
-.theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
-.theme-toggle svg { width: 17px; height: 17px; }
-.theme-toggle__sun  { display: var(--sun); }
-.theme-toggle__moon { display: var(--moon); }
 
 /* ── hero ───────────────────────────────────────────────────── */
 .hero { background: var(--paper); border-bottom: 1px solid var(--line); }
@@ -401,7 +389,6 @@ theme-toggle {
     max-height: 0; overflow: hidden; transition: max-height .25s ease;
   }
   .nav__links a { padding: .85rem clamp(1.25rem, 4vw, 2rem); border-top: 1px solid var(--line); }
-  .nav__links .theme-toggle { margin: .85rem clamp(1.25rem, 4vw, 2rem); }
   .nav__checkbox:checked ~ .nav__links { max-height: 320px; }
   .nav__burger {
     display: flex; flex-direction: column; gap: 4px; cursor: pointer;
