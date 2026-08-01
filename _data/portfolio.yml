@@ -16,6 +16,15 @@
 author_key: "Gardner-O'Kearny"
 
 list:
+  - title: "Electromagnetic object reconstruction in MAIA"
+    authors: "A. Gardner-O'Kearny, J. Watts"
+    venue: "Fermilab LPC Physics Forum"
+    year: 2026
+    selected: true
+    note: "LPC forum talk given with UTK undergraduate Jullian Watts"
+    links:
+      slides: "assets/portfolio/ago_jwatts_forum_talk.pdf"
+
   - title: "Understanding photon shower behavior at the MAIA detector"
     authors: "A. Gardner-O'Kearny, T. Holmes, L. Lee, The MAIA Detector Group"
     venue: "Fermilab Users and Affiliates Meeting"
